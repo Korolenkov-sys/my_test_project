@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>Enter your email and password to register.</p>   
+
+<form action="" method="post" name="register">
+<div>
+    <table for="first_name" style="display: block;">first_Name</table>
+<input id="first_name" type="text" name="first_name" style="width: 300px; height: 40px;" placeholder="first_NAME">
+</div>
+<div>
+<table for="Last_name" style="display: block;">Last_Name</table>
+<input id="Last_name" type="text" name="Last_name" style="width: 300px; height: 40px;" placeholder="Last_NAME">
+</div>
+<div>
+    <label for="">
+        <input type="checkbox" name="agree" checked>
+        I agree about terms...
+    </label>
+</div>
+<div> 
+    <h3>Gender</h3>
+    <label for="">
+        <input type="radio" name="gender" value="man">
+        man
+    </label>
+    <label for="">
+        <input type="radio" name="gender" value="women">
+        women
+    </label>
+    <label for="">
+        <input type="radio" name="gender" value="other">
+        other
+    </label>
+
+</div>
+    <div>
+        <input type="file" name="load">
+    </div>
+    <div>
+        <label for="message">
+            message
+        </label>
+        <textarea name="message" id="message" style="width: 300px; height: 150px; resize: none;"></textarea>
+    </div>
+    <div>
+        <label for="City">City</label>
+        <select name="City" id="City">
+        <option value="">Kiev</option>
+        <option value="">odesa</option>
+        <option value="">o</option>
+        <option value="">d</option>
+        <option value="">a</option></select>
+    </div>
+<button type="reset">reset</button>
+<button type="submit">send</button>
+</form>
+
+
+</body>
+</html>
